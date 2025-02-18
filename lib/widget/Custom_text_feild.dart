@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomTextField extends StatelessWidget {
-  final Function(String)? onChange; // Made onChange optional
+  final Function(String)? onChange;  
   final String? hintText;
   TextInputType ? type ;
   CustomTextField({this.hintText,this.type, this.onChange });
